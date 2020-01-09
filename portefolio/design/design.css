@@ -1,0 +1,577 @@
+                            /*HEADER*/
+    
+    .titlemain{
+        font-size:20px;
+        text-align:center;
+        color:#b2bfc1;
+        width:100%;
+        font-family:'police1';
+        border-width:1px;
+        border-style:inset;
+        border-color:black;
+        text-shadow:0 0 20px white,2px 3px 3px #141414, 0 0 100px white;color:darkgrey;
+        background-image: radial-gradient(circle at center, black, grey);
+        border-radius : 10px 9px 8px 7px;
+    }
+
+    .menu{
+        background-color:black;
+        margin-top:4px;
+        text-align:center;
+        color:white;
+        border-radius : 10px 9px 8px 7px;
+        background-image: linear-gradient(to right, darkgrey, black, #258ea8, rgb(192, 203, 206));
+    }
+
+    ul{
+        padding: 0px;
+        margin: 0px;
+        list-style-type: none;
+    }
+
+    li{
+        display:inline-block;
+        width:250px;
+        height:40px;
+        margin:0px;
+        padding:0px;
+        font-size:20px;
+        margin-top:10px;
+        margin-bottom:10px;
+        font-family:"police2";
+    }
+
+    body{
+        background-color:#006378; 
+    }
+
+    @font-face{
+        font-family:'police1';
+        src: url('../police/Mandatory Plaything.otf');
+    }
+
+    @font-face{
+        font-family:'police2';
+        src: url('../police/Meganté-Personal-Use.ttf');
+    }
+
+
+                            /*ACCUEIL*/
+    .presentation{
+	padding-top: 5px;
+	padding-left: 5px;
+ 	font-style: arial;
+	font-family: Georgia, "Times New Roman",
+        Times, serif;
+	color : white;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	text-align:center;
+	
+    }
+	p{
+		font-size:50px;
+		text-align:center;
+		text-shadow: black 0.1em 0.1em 0.2em
+	};
+
+    .notepadd{
+        list-style-type: none;
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 50 0 35px;
+        padding: 0;
+    }
+
+    .php{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .html5{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 30 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .ODI{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    .sql{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 120px;
+        margin: 70 20 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .tableau{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .cognos{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .VirtualBox{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .VSC{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .notepadd{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+    .Vmware{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+.java{
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 150px;
+        margin: 40 100 0 35px;
+        padding: 0;
+        list-style-type: none;
+    }
+	.ppe{
+           position: relative;
+           float: left;
+           width: 200px;
+           height: 150px;
+           margin: 40 100 0 35px;
+           padding: 0;
+           list-style-type: none;
+}
+ .ppe img{
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+ 
+    .ppe:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
+    .python img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+ 
+    .python:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
+ .ODI img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .ODI:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+ .java img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .java:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+ .css img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .css:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+ .tableau img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .tableau:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
+ .cognos img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .cognos:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+ .VirtualBox img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .VirtualBox:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+ .VSC img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .VSC:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+ .notepadd img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .notepadd:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+ .Vmxare img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .Vmware:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+    .php img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    .php:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
+    .html5 img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    
+    .html5:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
+    .sql img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        -webkit-transform: scale(1);
+	    transform: scale(1);
+	    -webkit-transition: .3s ease-in-out;
+	    transition: .3s ease-in-out;
+    }
+    
+    .sql:hover img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transform: scale(1.3);
+	    transform: scale(1.3);
+    }
+
+    /*ENTER*/
+
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+$bg-color: #4242e6;
+$glitch-bg-color: $bg-color;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  color: #a5a5ff;
+  background-color: $bg-color;
+}
+
+/* unvisited link */
+a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00F0;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #4242e6;
+  text-decoration: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  display: block;
+  font-size: 3em;
+  margin: 0.6em 0;
+  font-weight: bold;
+}
+
+.glitch {
+  position: relative;
+  margin: 0 auto;
+  background: $glitch-bg-color;
+}
+
+.glitch::before,
+.glitch::after {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  clip: rect(0, 900px, 0, 0);
+  content: attr(data-text);
+}
+
+.glitch::after {
+  animation-name: glitch-animation;
+  animation-duration: 4s;
+  left: 4px;
+  text-shadow: -1px 0 #ffa800;
+  background: $glitch-bg-color;
+}
+
+.glitch::before {
+  animation-name: glitch-animation-2;
+  animation-duration: 6s;
+  left: -4px;
+  text-shadow: 1px 0 #00d8ff;
+  background: $glitch-bg-color;
+}
+
+@mixin rect($top, $bottom) {
+  clip: rect($top, 9999px, $bottom, 0);
+}
+
+/* Expanded Animations */
+@keyframes glitch-animation {
+  0% { @include rect(42px, 44px); }
+  5% { @include rect(12px, 59px); }
+  10% { @include rect(48px, 29px); }
+  15.0% { @include rect(42px, 73px); }
+  20% { @include rect(63px, 27px); }
+  25% { @include rect(34px, 55px); }
+  30.0% { @include rect(86px, 73px); }
+  35% { @include rect(20px, 20px); }
+  40% { @include rect(26px, 60px); }
+  45% { @include rect(25px, 66px); }
+  50% { @include rect(57px, 98px); }
+  55.0% { @include rect(5px, 46px); }
+  60.0% { @include rect(82px, 31px); }
+  65% { @include rect(54px, 27px); }
+  70% { @include rect(28px, 99px); }
+  75% { @include rect(45px, 69px); }
+  80% { @include rect(23px, 85px); }
+  85.0% { @include rect(54px, 84px); }
+  90% { @include rect(45px, 47px); }
+  95% { @include rect(37px, 20px); }
+  100% { @include rect(4px, 91px); }
+}
+
+@keyframes glitch-animation-2 {
+  0% { @include rect(65px, 100px); }
+  5% { @include rect(52px, 74px); }
+  10% { @include rect(79px, 85px); }
+  15.0% { @include rect(75px, 5px); }
+  20% { @include rect(67px, 61px); }
+  25% { @include rect(14px, 79px); }
+  30.0% { @include rect(1px, 66px); }
+  35% { @include rect(86px, 30px); }
+  40% { @include rect(23px, 98px); }
+  45% { @include rect(85px, 72px); }
+  50% { @include rect(71px, 75px); }
+  55.0% { @include rect(2px, 48px); }
+  60.0% { @include rect(30px, 16px); }
+  65% { @include rect(59px, 50px); }
+  70% { @include rect(41px, 62px); }
+  75% { @include rect(2px, 82px); }
+  80% { @include rect(47px, 73px); }
+  85.0% { @include rect(3px, 27px); }
+  90% { @include rect(26px, 55px); }
+  95% { @include rect(42px, 97px); }
+  100% { @include rect(38px, 49px); }
+}
+
+
+    
